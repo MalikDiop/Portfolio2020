@@ -477,6 +477,10 @@ mark,
   max-width: 100%;
   height: auto;
 }
+.img-fluid1 {
+  max-width: 100%;
+  height: 240px;
+}
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -10040,6 +10044,12 @@ h3 {
 
 /*-----divider  for contact----*/
 
+section#contact{
+  background-image: url(/assets/img/map-image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .divider-custom .divider-custom-line1 {
   width: 100%;
   max-width: 7rem;
@@ -10221,6 +10231,7 @@ h3 {
   border-radius: 0.5rem;
   overflow: hidden;
 }
+
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;
